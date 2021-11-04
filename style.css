@@ -63,5 +63,6 @@ section img {
 
     main {
         flex-direction: column;
+        padding: 0;
     }
 }
