@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #EEF9BF;
     font-family: 'Roboto', sans-serif;
@@ -25,6 +27,34 @@ header {
     align-items: center;
 }
 
+aside {
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: right;
+}
+
+span {
+    border-bottom-left-radius: 30px;
+}
+.cronometro{
+    border-top-right-radius: 30px;
+}
+
+.cronometro, span {
+    background-color: #333333;
+    color: #EEF9BF;
+    font-weight: 900;
+
+    height: 30px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 main{
     padding-left: 116px;
     padding-right: 116px;
@@ -37,24 +67,61 @@ main{
     align-items: center;
 }
 
-section {
-    background-color: #A7E9AF;
+.card {
     width: 117px;
     height: 146px;
+    position: relative;
+  }
+
+  .face {
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
 
     border: 1px solid #99cea8;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    position: absolute;
 
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
+  }
+
+  .back-face {
+    transform: rotateY(180deg);
+  }
+
+  .virarBack {
+    transform: rotateY(0deg);
+  }
+
+  .virarFront {
+    transform: rotateY(-180deg);
+  }
+
+  .virarBackSempre {
+    transform: rotateY(0deg);
+  }
+
+  .virarFrontSempre {
+    transform: rotateY(-180deg);
+  }
+
+  section img {
+    width: 100px;
+    height: 100px;
 }
 
 section img {
     width: 100px;
     height: 100px;
 }
+
 
 @media (max-width: 335px){
     header {
@@ -66,3 +133,7 @@ section img {
         padding: 0;
     }
 }
+
+
+
+    
