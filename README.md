@@ -11,5 +11,13 @@ HTML | CSS | JS | tansition
 ## Get Started
 
 ```
-git clone
+git clone https://github.com/Mateusr337/Projeto_04_parrotsCardGame.git
+```
+
+```
+npm install
+```
+
+```
+npm run start
 ```
