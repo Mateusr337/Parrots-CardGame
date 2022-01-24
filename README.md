@@ -10,14 +10,5 @@ HTML | CSS | JS | tansition
 
 ## Get Started
 
-```
-git clone https://github.com/Mateusr337/Projeto_04_parrotsCardGame.git
-```
-
-```
-npm install
-```
-
-```
-npm run start
-```
+- Fist Clone this repository
+- Open the file "index.js"
