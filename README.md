@@ -2,11 +2,11 @@
 
 <img src="./images/parrot.gif" atl="aplication video">
 
-## About
+## Sobre
 
-This project is a memory game, with an application for computers, where it has gameplay and selection of the number of cards.
+Esse projeto é um jogo da memória onde pode escolher com quantas cartas jogar e ao final saber qual o tempo de jogo.
 
-## Technologies
+## Tecnologias
 
 <div>
   <img style='margin: 5px;' src="https://img.shields.io/badge/javascript%20-%2320232a.svg?&style=for-the-badge&color=F7DF1E&logo=javascript&logoColor=000000" />
@@ -16,7 +16,11 @@ This project is a memory game, with an application for computers, where it has g
   <img style='margin: 5px;' src="https://img.shields.io/badge/transition%20-%2320232a.svg?&style=for-the-badge&color=1572B6&logo=CSS3&logoColor=ffffff"/>
 </div>
 
-## Get Started
+## Executar
 
-- Fist Clone this repository
-- Open the file "index.js"
+ - Primeiro clone esse projeto
+
+ - Rode ```npm i```
+
+ - Rode ```npm start```
+
