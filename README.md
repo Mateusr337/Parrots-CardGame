@@ -4,7 +4,7 @@
 
 ## Sobre
 
-Esse projeto é um jogo da memória onde pode escolher com quantas cartas jogar e ao final saber qual o tempo de jogo.
+Esse projeto é um jogo da memória onde pode escolher com quantas cartas jogar e ao final saber qual o tempo de jogo. Com cards animados e divertidos!
 
 ## Tecnologias
 
